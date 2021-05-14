@@ -18,8 +18,40 @@
           yummy food.
         </p>
 
-        <form>
+        <form method="POST" action="index.html">
           <!-- Your multiple choice goes here -->
+          <fieldset>
+            <legend>Please select all of your dietary requirements</legend>
+            <!--Halal, Kosher, Vegetarian, Vegan, Gluten Free.-->
+            <input type="checkbox" name="dietary" value="Halal"> Halal
+            <input type="checkbox" name="dietary" value="Kosher"> Kosher
+            <input type="checkbox" name="dietary" value="Vegetarian"> Vegetarian
+            <input type="checkbox" name="dietary" value="Vegan"> Vegan
+            <input type="checkbox" name="dietary" value="Gluten Free"> Gluten Free
+          </fieldset>
+          <button type="submit">Submit</button>
+        </form>
+        <form method="POST" action="index.html">
+          <!-- Your multiple choice goes here -->
+          <fieldset>
+            <legend>Please select all of your dietary requirements</legend>
+            <!--Halal, Kosher, Vegetarian, Vegan, Gluten Free.-->
+            <label>
+            <input type="checkbox" name="dietary" value="Halal"> Halal
+          </label><br><br>
+          <label>
+            <input type="checkbox" name="dietary" value="Kosher"> Kosher
+          </label><br><br>
+          <label>
+            <input type="checkbox" name="dietary" value="Vegetarian"> Vegetarian
+          </label><br><br>
+          <label>
+            <input type="checkbox" name="dietary" value="Vegan"> Vegan
+          </label><br><br>
+          <label>
+            <input type="checkbox" name="dietary" value="Gluten Free"> Gluten Free
+          </label><br><br>
+          </fieldset>
           <button type="submit">Submit</button>
         </form>
       </main>
