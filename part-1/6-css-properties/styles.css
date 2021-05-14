@@ -11,7 +11,7 @@ a{
     font-size: 0.9rem;
     opacity: 50%;
 }
-.message_message--unread{
+.message message--unread{
 border-left: blue;
 ;
 }
