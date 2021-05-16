@@ -1,18 +1,26 @@
 /* Write your media queries and flexbox CSS below */
-/*@media screen and (min-width: 480px) {
-    .site-header__nav a {
-      display: inline-block;
-    }
+@media screen and (min-width: 480px) {
+  .site-header__nav a {
+    display: inline-block;
   }
-  */
-/*@media screen and (min-width: 700px) {
-    .site-header {
-      display: flex;
-      justify-content: space-between;
-    }
-  }*/
-/*@media screen and (min-width: 992px) {
-    .site-header__checkout {
-      float: right;
-    }
-  }*/
+}
+
+@media screen and (min-width: 700px) {
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 992px) {
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .site-header__nav a {
+    display: inline-block;
+  }
+  .site-header__checkout {
+    justify-items: flex-end;
+  }
+}
