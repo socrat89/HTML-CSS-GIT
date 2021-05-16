@@ -10,6 +10,6 @@
   margin-left: 4px;
   margin-bottom: 4px;
 }
-.countries{
-  padding: 10px;
+.countries li {
+  padding: 15px 15px 15px 15px;
 }
