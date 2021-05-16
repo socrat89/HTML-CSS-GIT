@@ -5,19 +5,19 @@
 .countries--second.country {
   padding: 0.5em;
 }
-/*555555*/
+
 /* Add your own CSS code below */
-.countries.countries--first {
-  justify-content: flex-end;
+.countries--first {
+  justify-content: space-between;
 }
 .countries.countries--second {
   justify-content: space-between;
 }
-.countries.countries--tall.countries--third {
+.countries.countries--third {
   flex-direction: column;
   justify-content: flex-end;
 }
-.countries.countries--tall.countries--fourth {
+.countries.countries--fourth {
   flex-direction: column-reverse;
   justify-content: space-around;
 }
