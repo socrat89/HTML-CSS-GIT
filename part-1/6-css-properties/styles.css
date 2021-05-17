@@ -17,3 +17,7 @@ a {
 .message__content {
   line-height: 2rem;
 }
+
+.message:first-child {
+  opacity: 0.3;
+}
